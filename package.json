@@ -1,0 +1,22 @@
+{
+  "name": "wooz",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "Luiie",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
