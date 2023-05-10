@@ -10,6 +10,11 @@ html(lang="en")
         header
             h1 WOOZ
         main
-            h2 Welcome to WOOZ
-        button CALL
-        script(src="/public/js/app.js") 
+            ul
+            form#nick
+                input(type="text", placeholder="name", required)
+                button SAVE
+            form#message
+                input(type="text", placeholder="message", required)
+                button SAND
+        script(src="/public/js/app.js")
