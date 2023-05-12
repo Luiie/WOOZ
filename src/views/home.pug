@@ -10,11 +10,22 @@ html(lang="en")
         header
             h1 WOOZ
         main
-            ul
-            form#nick
-                input(type="text", placeholder="name", required)
-                button SAVE
-            form#message
-                input(type="text", placeholder="message", required)
-                button SAND
+            div#welcome
+                form
+                    input(type="text", placehoder="Room Name", required)
+                    button Enter the Room
+                h4 Open Rooms:
+                ul 
+            div#room
+                h3
+                h5 Nickname: Anonymous
+                form#name
+                    input(type="text", placehoder="Nickname", required)
+                    button Save
+                ul
+                form#msg
+                    input(type="text", placehoder="Message", required)
+                    button Send
+        script(src="/socket.io/socket.io.js")
         script(src="/public/js/app.js")
+        WebSocket
