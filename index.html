@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meme Maker</title>
+</head>
+<body>
+    <canvas></canvas>
+    <div class="color-options">
+        <input type="color" id="color">
+        <div class="color-option" style="background-color: #ED4C67;" data-color="#ED4C67"></div>
+        <div class="color-option" style="background-color: #FFC312;" data-color="#FFC312"></div>
+        <div class="color-option" style="background-color: #C4E538;" data-color="#C4E538"></div>
+        <div class="color-option" style="background-color: #12CBC4;" data-color="#12CBC4"></div>
+        <div class="color-option" style="background-color: #0652DD;" data-color="#0652DD"></div>
+        <div class="color-option" style="background-color: #1B1464;" data-color="#1B1464"></div>
+    </div>
+    <div class="btns">
+        <input id="line-width" type="range" min="1" max="10" value="5">
+        <button id="mode-btn">Fill</button>
+        <button id="destroy-btn">Destroy</button>
+        <button id="eraser-btn">Erase</button>
+        <input type="file" id="file" accept="image/*">
+        <input type="text" id="text" placeholder="Write & Double Cick!">
+        <button id="save">Save</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
